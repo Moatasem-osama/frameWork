@@ -1,0 +1,141 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+ */
+
+/*
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+img{
+  width: 250px;
+}
+:root{
+  --main-color: #1abc9c;
+  --second-color: rgb(44, 62, 80);
+}
+.bg{
+  background-color: var(--second-color);
+}
+.color{
+  background-color: var(--main-color);
+}
+button:hover{
+  background-color: var(--main-color) !important;
+}
+.home , .about  {
+  background-color: #1abc9c;
+  min-height: calc(-106px + 100vh) !important;
+}
+.portfolio , .contact{
+  min-height: calc(-106px + 100vh) !important;
+}
+.contact{
+  margin-top: 100px !important;
+}
+.active{
+  background-color: #1abc9c;
+  border-radius: 10px;
+  width: min-content;
+
+}
+.line{
+  height: 4px;
+  width: 80px;
+}
+.layer{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+.layer:hover{
+  opacity: 1;
+}
+label{
+  color: #1abc9c;
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.social-icons .icon-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons .icon-circle a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons .icon-circle:hover {
+  background-color: #16a085;
+}
+
+
